@@ -1,10 +1,10 @@
-# To start project
+# Start project
 ```
 npm run dev
 ```
 
-#Stack:
--React
--Redux
--TypeScript
--SCSS
+# Stack:
+- React
+- Redux
+- TypeScript
+- SCSS
