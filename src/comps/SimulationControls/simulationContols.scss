@@ -1,0 +1,12 @@
+@import "../../styles/base/variables";
+
+.simulationControls {
+  display: inline-flex;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 0.1rem solid $SecondaryColor;
+  border-radius: 1rem;
+}

@@ -1,0 +1,16 @@
+@import "../../styles/base/variables";
+
+.grid {
+
+  display: inline-grid;
+  grid-template-columns: repeat(30, 1rem);
+  grid-template-rows: repeat(30, 1rem);
+
+  border: solid $SecondaryColor 1rem;
+
+  &.noCells {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

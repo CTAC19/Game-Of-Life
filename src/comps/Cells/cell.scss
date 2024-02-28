@@ -1,0 +1,13 @@
+@import "../../styles/base/variables";
+
+.cell {
+  @extend %wh;
+
+  &.alive {
+    background-color: $SecondaryColor;
+  }
+
+  &.dead {
+    background-color: $MainColor;
+  }
+}

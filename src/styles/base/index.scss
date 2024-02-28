@@ -1,0 +1,16 @@
+//Imports
+@import "reset";
+@import "variables";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+
+  background-color: $BackgroundColor;
+  color: $TextColor;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+}

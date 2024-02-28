@@ -1,0 +1,23 @@
+@import "../../../../styles/base/variables";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  gap: 0.5rem;
+
+  padding: 0.5rem;
+  background-color: $SecondaryColor;
+  color: $TextColor;
+
+  border-radius: 0.3rem;
+
+  cursor: pointer;
+  transition-duration: .2s;
+
+  &:hover {
+    background-color: darken($SecondaryColor, 10%);
+  }
+}
